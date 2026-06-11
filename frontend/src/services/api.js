@@ -4,7 +4,7 @@ from "axios";
 const API =
 axios.create({
   baseURL:
-  "http://localhost:5000/api",
+"https://mindvault-ai-backend.onrender.com/api",
 });
 API.interceptors.request.use(
   (config) => {
