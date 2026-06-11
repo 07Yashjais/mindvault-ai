@@ -154,6 +154,27 @@ function Login() {
           Login
         </button>
 
+
+          <p className="
+  text-center
+  text-sm
+">
+  Don't have an account?
+
+  <span
+    onClick={() =>
+      navigate("/register")
+    }
+    className="
+      text-blue-600
+      cursor-pointer
+      ml-1
+    "
+  >
+    Register
+  </span>
+</p>
+
       </form>
     </div>
   );
